@@ -38,7 +38,7 @@ python -m garak -t litellm -n gpt-5.1 -p lmrc.Misogyny -d lmrc.Misogyny --report
 
 **Report artifacts**:
 
-- [gpt-5.1-misogyny-2026-01-17.report.html](gpt-5.1-misogyny-2026-01-17.report-html)
+- [gpt-5.1-misogyny-2026-01-17.report.html](gpt-5.1-misogyny-2026-01-17.report.html)
 - [gpt-5.1-misogyny-2026-01-17.report.jsonl](gpt-5.1-misogyny-2026-01-17.report-jsonl)
 
 #### Expected output
@@ -74,7 +74,7 @@ garak run complete in 562.38s ✅
 
 **Report artifacts**:
 
-- [llama3.2-1b-misogyny-2026-01-17.report.html](llama3.2-1b-misogyny-2026-01-17.report-html)
+- [llama3.2-1b-misogyny-2026-01-17.report.html](llama3.2-1b-misogyny-2026-01-17.report.html)
 - [llama3.2-1b-misogyny-2026-01-17.report.jsonl](llama3.2-1b-misogyny-2026-01-17.report-jsonl)
 
 ## Test Data

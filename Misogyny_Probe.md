@@ -22,11 +22,11 @@ layout: default
 | **[garak-2026-01-17.log](logs/garak-2026-01-17.log.md)** | garak run log |
 | **[pytest-2026-01-17.log](logs/pytest-2026-01-17.log.md)** | Pytest output for detector + probe unit tests |
 | **[llama3.2-1b-misogyny-2026-01-17.log](logs/llama3.2-1b-misogyny-2026-01-17.log)** | llama3.2:1b run log (ollama) |
-| **[llama3.2-1b-misogyny-2026-01-17.report.html](tests/llama3.2-1b-misogyny-2026-01-17.report-html.md)** | llama3.2:1b report (HTML) |
+| **[llama3.2-1b-misogyny-2026-01-17.report.html](tests/llama3.2-1b-misogyny-2026-01-17.report.html)** | llama3.2:1b report (HTML) |
 | **[llama3.2-1b-misogyny-2026-01-17.report.jsonl](tests/llama3.2-1b-misogyny-2026-01-17.report-jsonl.md)** | llama3.2:1b report (JSONL) |
 | **[llama3.2-1b-misogyny-2026-01-17.report.json](tests/llama3.2-1b-misogyny-2026-01-17.report-json.md)** | llama3.2:1b report (JSON) |
 | **[gpt-5.1-misogyny-2026-01-17.log](logs/gpt-5.1-misogyny-2026-01-17.log)** | gpt-5.1 run log (litellm) |
-| **[gpt-5.1-misogyny-2026-01-17.report.html](tests/gpt-5.1-misogyny-2026-01-17.report-html.md)** | gpt-5.1 report (HTML) |
+| **[gpt-5.1-misogyny-2026-01-17.report.html](tests/gpt-5.1-misogyny-2026-01-17.report.html)** | gpt-5.1 report (HTML) |
 | **[gpt-5.1-misogyny-2026-01-17.report.jsonl](tests/gpt-5.1-misogyny-2026-01-17.report-jsonl.md)** | gpt-5.1 report (JSONL) |
 | **[gpt-5.1-misogyny-2026-01-17.report.json](tests/gpt-5.1-misogyny-2026-01-17.report-json.md)** | gpt-5.1 report (JSON) |
 
