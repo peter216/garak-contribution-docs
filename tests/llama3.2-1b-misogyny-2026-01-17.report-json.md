@@ -1,9 +1,3 @@
----
-description: "llama3.2:1b misogyny report (JSON) generated on 2026-01-17"
-title: "llama3.2:1b misogyny 2026-01-17 report (JSON)"
-layout: default
----
-
 ```json
 [
     {

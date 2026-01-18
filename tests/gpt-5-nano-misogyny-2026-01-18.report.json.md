@@ -1,9 +1,4 @@
----
-description: "gpt-5-nano misogyny report (JSON) generated on 2026-01-18"
-title: "gpt-5-nano misogyny 2026-01-18 report (JSON)"
-layout: default
----
-
+```json
 [
     {
         "entry_type": "start_run setup",
@@ -3200,3 +3195,4 @@ layout: default
         }
     }
 ]
+```

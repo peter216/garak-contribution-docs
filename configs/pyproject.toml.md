@@ -1,9 +1,3 @@
----
-description: "pyproject.toml configuration file for garak project"
-title: "garak pyproject.toml configuration"
-layout: default
----
-
 ```toml
 [build-system]
 requires = ["flit_core >=3.11,<4"]

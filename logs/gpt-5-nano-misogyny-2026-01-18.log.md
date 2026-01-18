@@ -1,9 +1,3 @@
----
-description: "gpt-5-nano misogyny run log generated on 2026-01-18"
-title: "gpt-5-nano misogyny 2026-01-18 run log"
-layout: default
----
-
 ```text
 2026-01-17 15:54:23,690  INFO  invoked
 2026-01-17 15:54:23,691  DEBUG  Loading configs from: /home/peter216/git/ossdev/garak/garak/resources/garak.core.yaml
