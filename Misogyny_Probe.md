@@ -12,8 +12,8 @@ layout: default
 
 | File | Purpose |
 |------|---------|
-| **[QUICK_START.md](QUICK_START)** | **One-page quick reference** |
-| **[TESTING_MISOGYNY.md](TESTING_MISOGYNY)** | **More in-depth testing instructions** |
+| **[Commands.md](Commands.md)** | **One-page quick reference** |
+| **[TESTING_MISOGYNY.md](TESTING_MISOGYNY.md)** | **More in-depth testing instructions** |
 
 ### Testing & Validation
 
