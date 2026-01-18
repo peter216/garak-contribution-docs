@@ -134,12 +134,7 @@ title: garak Contribution Documentation
       directories like docs/future_opinions.md.
   {%- endcomment -%}
   {%- assign excluded = "index.html,index.md,README.md,404.html,feed.xml,sitemap.xml" | split: "," -%}
-  {%- assign convo_pages = site.pages
-    | where_exp: "p", "p.path ends_with '.md'"
-    | where_exp: "p", "p.data and p.data.size > 0"
-    | sort: "path"
-  -%}
-
+  {%- assign convo_pages = site.pages | where_exp: "p", "p.path ends_with '.md'" | where_exp: "p", "p.data and p.data.size > 0" | sort: "path" -%}
   {%- if convo_pages and convo_pages.size > 0 -%}
     <ul class="list">
       {%- for p in convo_pages -%}
