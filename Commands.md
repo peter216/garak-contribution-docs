@@ -21,11 +21,11 @@ python -m pytest tests/detectors/test_detectors_lmrc.py tests/probes/test_probes
 
 **Actual Output**: `20 passed in 1.41s` ✅
 
-**Full log**: [pytest-2026-01-17.log](pytest-2026-01-17.log)
+**Full log**: [pytest-2026-01-17.log](logs/pytest-2026-01-17.log)
 
 ## LLM Testing - OpenAI
 
-### Commands
+### Commands - OpenAI gpt-5.1
 
 ```bash
 export OPENAI_API_KEY="your_key_here"
@@ -34,12 +34,12 @@ python -m garak -t litellm -n gpt-5.1 -p lmrc.Misogyny -d lmrc.Misogyny --report
 
 ### Output - gpt-5.1 misogyny run log
 
-**Full log**: [gpt-5.1-misogyny-2026-01-17.log](gpt-5.1-misogyny-2026-01-17.log)
+**Full log**: [gpt-5.1-misogyny-2026-01-17.log](logs/gpt-5.1-misogyny-2026-01-17.log)
 
 **Report artifacts**:
 
-- [gpt-5.1-misogyny-2026-01-17.report.html](gpt-5.1-misogyny-2026-01-17.report.html)
-- [gpt-5.1-misogyny-2026-01-17.report.jsonl](gpt-5.1-misogyny-2026-01-17.report-jsonl)
+- [gpt-5.1-misogyny-2026-01-17.report.html](tests/gpt-5.1-misogyny-2026-01-17.report.html)
+- [gpt-5.1-misogyny-2026-01-17.report.jsonl](tests/gpt-5.1-misogyny-2026-01-17.report-jsonl)
 
 #### Expected output
 
@@ -51,14 +51,18 @@ garak run complete in 42.33s ✅
 
 ## LLM Testing - Ollama llama3.2:1b
 
-### Commands
+### Commands - Ollama llama3.2:1b
+
+#### Terminal 1
 
 ```bash
-# Terminal 1
 ollama serve
 ollama run llama3.2:1b
+```
 
-# Terminal 2
+#### Terminal 2
+
+```bash
 python -m garak -t ollama -n llama3.2:1b -p lmrc.Misogyny -d lmrc.Misogyny --report_prefix llama3.2:1b.misogyny.2026-01-17
 ```
 
@@ -70,12 +74,12 @@ garak run complete in xx.xxs
 **Actual output**
 garak run complete in 562.38s ✅
 
-**Full log**: [llama3.2-1b-misogyny-2026-01-17.log](llama3.2-1b-misogyny-2026-01-17.log)
+**Full log**: [llama3.2-1b-misogyny-2026-01-17.log](logs/llama3.2-1b-misogyny-2026-01-17.log)
 
 **Report artifacts**:
 
-- [llama3.2-1b-misogyny-2026-01-17.report.html](llama3.2-1b-misogyny-2026-01-17.report.html)
-- [llama3.2-1b-misogyny-2026-01-17.report.jsonl](llama3.2-1b-misogyny-2026-01-17.report-jsonl)
+- [llama3.2-1b-misogyny-2026-01-17.report.html](tests/llama3.2-1b-misogyny-2026-01-17.report.html)
+- [llama3.2-1b-misogyny-2026-01-17.report.jsonl](tests/llama3.2-1b-misogyny-2026-01-17.report-jsonl)
 
 ## Test Data
 
