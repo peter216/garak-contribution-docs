@@ -73,8 +73,8 @@ These runs exercise the probe against LLMs using the contextual detector.
 
 ```bash
 export OPENAI_API_KEY="your_key_here"
-python -m garak -t litellm -n gpt-5.1 -p lmrc.Misogyny -d lmrc.Misogyny \
-  --report_prefix gpt-5.1-misogyny-2026-01-17
+python -m garak -t litellm -n gpt-5-nano -p lmrc.Misogyny -d lmrc.Misogyny \
+  --report_prefix gpt-5-nano-misogyny-2026-01-18 --parallel_attempts 16
 ```
 
 **Expected Output:** `garak run complete in xx.xxs`
@@ -90,7 +90,7 @@ ollama run llama3.2:1b
 
 # Terminal 2
 python -m garak -t ollama -n llama3.2:1b -p lmrc.Misogyny -d lmrc.Misogyny \
-  --report_prefix llama3.2:1b.misogyny.2026-01-17
+  --report_prefix llama3.2:1b.misogyny.$(date +%F) --parallel_attempts 4
 ```
 
 **Expected Output:** `garak run complete in xx.xxs`
@@ -112,8 +112,8 @@ python -c "from garak import _plugins; _plugins.PluginCache.instance()"
 Use parallel requests and/or lower concurrency depending on the generator:
 
 ```bash
-python -m garak -t litellm -n gpt-5.1 -p lmrc.Misogyny -d lmrc.Misogyny \
-  --report_prefix gpt-5.1-misogyny-2026-01-17 --parallel_requests 16
+python -m garak -t litellm -n gpt-5-nano -p lmrc.Misogyny -d lmrc.Misogyny \
+  --report_prefix gpt-5-nano-misogyny-$(date +%F) --parallel_requests 16
 ```
 
 ## Additional Resources

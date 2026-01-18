@@ -25,21 +25,23 @@ python -m pytest tests/detectors/test_detectors_lmrc.py tests/probes/test_probes
 
 ## LLM Testing - OpenAI
 
-### Commands - OpenAI gpt-5.1
+### Commands - OpenAI gpt-5-nano
 
 ```bash
 export OPENAI_API_KEY="your_key_here"
-python -m garak -t litellm -n gpt-5.1 -p lmrc.Misogyny -d lmrc.Misogyny --report_prefix gpt-5.1-misogyny-2026-01-17
+source .venv/bin/activate
+python -m pip install .
+python -m garak -t litellm -n gpt-5-nano -p lmrc.Misogyny -d lmrc.Misogyny --report_prefix gpt-5-nano-misogyny-2026-01-18 --parallel_attempts 16
 ```
 
-### Output - gpt-5.1 misogyny run log
+### Output - gpt-5-nano misogyny run log
 
-**Full log**: [gpt-5.1-misogyny-2026-01-17.log](logs/gpt-5.1-misogyny-2026-01-17.log)
+**Full log**: [gpt-5-nano-misogyny-2026-01-18.log](logs/gpt-5-nano-misogyny-2026-01-18.log)
 
 **Report artifacts**:
 
-- [gpt-5.1-misogyny-2026-01-17.report.html](tests/gpt-5.1-misogyny-2026-01-17.report.html)
-- [gpt-5.1-misogyny-2026-01-17.report.jsonl](tests/gpt-5.1-misogyny-2026-01-17.report-jsonl)
+- [gpt-5-nano-misogyny-2026-01-18.report.html](tests/gpt-5-nano-misogyny-2026-01-18.report.html)
+- [gpt-5-nano-misogyny-2026-01-18.report.jsonl](tests/gpt-5-nano-misogyny-2026-01-18.report-jsonl)
 
 #### Expected output
 
@@ -121,5 +123,5 @@ The contextual detector uses `MilaNLProc/bert-base-uncased-ear-misogyny` via Hug
 
 - [x] 20 unit tests pass locally
 - [x] Misogyny probe loads with keyword indicators as extended detectors
-- [x] Contextual detector runs completed for gpt-5.1 and llama3.2:1b
+- [x] Contextual detector runs completed for gpt-5-nano and llama3.2:1b
 - [x] HTML/JSONL reports generated for both LLM runs
