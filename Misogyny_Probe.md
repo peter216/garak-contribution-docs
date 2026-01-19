@@ -91,17 +91,17 @@ python -m garak -t ollama -n llama3.2:1b -p lmrc.Misogyny -d lmrc.Misogyny \
 
 ### Log and Report Files
 
-| File | Purpose |
-|------|---------|
-| **[pytest-2026-01-17.log](logs/pytest-2026-01-17.log.md)** | Pytest output for detector + probe unit tests |
-| **[llama3.2-1b-misogyny-2026-01-17.log](logs/llama3.2-1b-misogyny-2026-01-17.log)** | llama3.2:1b run log (ollama) |
-| **[llama3.2-1b-misogyny-2026-01-17.report.html](tests/llama3.2-1b-misogyny-2026-01-17.report.html)** | llama3.2:1b report (HTML) |
-| **[llama3.2-1b-misogyny-2026-01-17.report.jsonl](tests/llama3.2-1b-misogyny-2026-01-17.report-json)** | llama3.2:1b report (JSONL) |
-| **[llama3.2-1b-misogyny-2026-01-17.report.json](tests/llama3.2-1b-misogyny-2026-01-17.report-json)** | llama3.2:1b report (JSON) |
-| **[gpt-5-nano-misogyny-2026-01-18.log](logs/gpt-5-nano-misogyny-2026-01-18.log)** | gpt-5-nano run log (litellm) |
-| **[gpt-5-nano-misogyny-2026-01-18.report.html](tests/gpt-5-nano-misogyny-2026-01-18.report.html)** | gpt-5-nano report (HTML) |
-| **[gpt-5-nano-misogyny-2026-01-18.report.jsonl](tests/gpt-5-nano-misogyny-2026-01-18.report-jsonl)** | gpt-5-nano report (JSONL) |
-| **[gpt-5-nano-misogyny-2026-01-18.report.json](tests/gpt-5-nano-misogyny-2026-01-18.report-json)** | gpt-5-nano report (JSON) |
+| File | Purpose | Raw Link |
+|------|---------|----------|
+| **[pytest-2026-01-17.log](logs/pytest-2026-01-17.log.md)** | Pytest output for detector + probe unit tests | [raw](https://raw.githubusercontent.com/peter216/garak-contribution-docs/refs/heads/main/logs/pytest-2026-01-17.log)
+| **[llama3.2-1b-misogyny-2026-01-17.log](logs/llama3.2-1b-misogyny-2026-01-17.log)** | llama3.2:1b run log (ollama) | [raw](https://raw.githubusercontent.com/peter216/garak-contribution-docs/refs/heads/main/logs/llama3.2-1b-misogyny-2026-01-17.log)
+| **[llama3.2-1b-misogyny-2026-01-17.report.html](tests/llama3.2-1b-misogyny-2026-01-17.report.html)** | llama3.2:1b report (HTML) | |
+| **[llama3.2-1b-misogyny-2026-01-17.report.jsonl](tests/llama3.2-1b-misogyny-2026-01-17.report-json)** | llama3.2:1b report (JSONL) | [raw](https://raw.githubusercontent.com/peter216/garak-contribution-docs/refs/heads/main/tests/llama3.2-1b-misogyny-2026-01-17.report.jsonl)
+| **[llama3.2-1b-misogyny-2026-01-17.report.json](tests/llama3.2-1b-misogyny-2026-01-17.report-json)** | llama3.2:1b report (JSON) | [raw](https://raw.githubusercontent.com/peter216/garak-contribution-docs/refs/heads/main/tests/llama3.2-1b-misogyny-2026-01-17.report.json)
+| **[gpt-5-nano-misogyny-2026-01-18.log](logs/gpt-5-nano-misogyny-2026-01-18.log)** | gpt-5-nano run log (litellm) | [raw](https://raw.githubusercontent.com/peter216/garak-contribution-docs/refs/heads/main/logs/gpt-5-nano-misogyny-2026-01-18.log)
+| **[gpt-5-nano-misogyny-2026-01-18.report.html](tests/gpt-5-nano-misogyny-2026-01-18.report.html)** | gpt-5-nano report (HTML) | |
+| **[gpt-5-nano-misogyny-2026-01-18.report.jsonl](tests/gpt-5-nano-misogyny-2026-01-18.report-jsonl)** | gpt-5-nano report (JSONL) | [raw](https://raw.githubusercontent.com/peter216/garak-contribution-docs/refs/heads/main/tests/gpt-5-nano-misogyny-2026-01-18.report.jsonl)
+| **[gpt-5-nano-misogyny-2026-01-18.report.json](tests/gpt-5-nano-misogyny-2026-01-18.report-json)** | gpt-5-nano report (JSON) | [raw](https://raw.githubusercontent.com/peter216/garak-contribution-docs/refs/heads/main/tests/gpt-5-nano-misogyny-2026-01-18.report.json)
 
 ### 🧪 Test Files
 

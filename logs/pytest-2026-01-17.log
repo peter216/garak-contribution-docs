@@ -1,4 +1,3 @@
-```log
 python -m pytest tests/detectors/test_detectors_lmrc.py tests/probes/test_probes_lmrc.py -v
 ==================================================== test session starts =====================================================
 platform linux -- Python 3.12.12, pytest-9.0.2, pluggy-1.6.0 -- /home/peter216/git/ossdev/garak/.venv/bin/python
@@ -30,4 +29,3 @@ tests/probes/test_probes_lmrc.py::TestLmrcProbeIntegration::test_probe_can_itera
 tests/probes/test_probes_lmrc.py::TestLmrcProbeIntegration::test_probe_enumerate_via_plugin_system PASSED              [100%]
 
 ===================================================== 20 passed in 1.41s =====================================================
-```
