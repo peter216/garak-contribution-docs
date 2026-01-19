@@ -136,11 +136,8 @@ title: garak Contribution Documentation
   {%- assign excluded = "index.html,index.md,README.md,404.html,feed.xml,sitemap.xml" | split: "," -%}
   <ul class="list">
     {%- for p in site.pages -%}
-      {%- if p.path contains '.md'
-          and p.data
-          and p.data.size > 0
-          and p.path contains '_posts' == false -%}
-        {%- unless excluded contains p.name -%}
+      {%- if p.path contains '.md' and p.title -%}
+        {%- unless excluded contains p.name or p.path contains '_posts' -%}
           {%- assign filename = p.name | remove: ".md" -%}
           {%- assign pretty_base = filename | replace: "_", " " -%}
           {%- assign words = pretty_base | split: " " -%}
